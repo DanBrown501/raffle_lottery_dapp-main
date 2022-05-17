@@ -1,6 +1,7 @@
 {
   "name": "RaffleLotteryDapp",
   "version": "0.1.0",
+  "homepage": "https://danbrown501.github.io/raffle_lottery_dapp-main/",
   "description": "An Ethereum Marketplace",
   "author": "gregory@dappuniversity.com",
   "dependencies": {
@@ -30,7 +31,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy": "yarn run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build", 
     "test": "react-scripts test",
     "eject": "react-scripts eject"
